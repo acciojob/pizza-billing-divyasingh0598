@@ -71,13 +71,13 @@ public class Pizza {
         if(isBillGenerated == false)
         {
             isBillGenerated = true;
-            if(isToppingsAdded == true)
-            {
-                this.bill += "Extra Toppings Added: " + this.addExtraToppings + "\n";
-            }
             if(isCheeseAdded == true)
             {
                 this.bill += "Extra Cheese Added: " + this.addExtraCheese + "\n";
+            }
+            if(isToppingsAdded == true)
+            {
+                this.bill += "Extra Toppings Added: " + this.addExtraToppings + "\n";
             }
             if(isTakeAway == true)
             {
